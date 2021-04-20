@@ -1,13 +1,18 @@
 import React from 'react';
 import './Inner.css';
+import { Link } from "react-router-dom";
 // import Card from './Card'
 
 // ES7 snippets to do 'rfce'
 
 function Inner() {
-    return (<h1>Hi I am Inner</h1>
+    return (
+        <Link to='/inner'></Link>
+        <h1>Hi I am Inner</h1>
+
     /*
         <div className='inner'>
+        
 
             <div className='inner__section'>
             <Card
